@@ -1,0 +1,91 @@
+body{
+    background-color:white; 
+    family: 思源黑體, 微軟正黑體, 蘋方體, 黑體, sans-serif, serif;
+}
+
+header {
+    background-color: #005761;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px; /* 设置菜单项之间的间距 */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* 鼠标悬停时的背景颜色 */
+}
+
+h1{
+    color: #f7dc50;
+}
+
+h3,h5{
+    color:#FFFFFF;
+}
+
+.col{
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #005761;
+    margin: 10px 5px;
+    border-radius:10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center; /* 水平置中 */
+    align-items: center; /* 垂直置中 */
+}
+
+.title h1 {
+    text-align: center;
+    color: green;
+}
+
+.title h3 {
+    text-align: center;
+    color: green;
+}
+
+.brief{
+    display: flex;
+    height: 100%;
+    padding: 0 5px;
+}
+
+.myhabies{
+  	display: flex;
+  	height: 100%;
+  	padding: 0 5px;
+}
+
+.copyright p{
+    text-align: center;
+    color: green;
+}
+.horizontal-line {
+    border-top: 3px solid GREEN; /* 设置上边框为1像素的实线，颜色为黑色 */
+    margin: 20px 0; /* 设置上下外边距为20像素 */
+}
